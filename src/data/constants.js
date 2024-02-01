@@ -81,7 +81,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+    img: "https://github.com/amit0-01/Myportfolio/assets/145347884/c04a3b2d-15b5-4f07-b7c6-3adf0bd8fb1f",
     school: "Punjabi University Patiala.",
     date: "2020 - 2024",
     grade: "7.84 CGPA",

@@ -65,7 +65,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://github-production-user-asset-6210df.s3.amazonaws.com/145347884/301153034-5d4c6942-8be5-4dc1-a272-3d07b6d28f79.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240131%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240131T120803Z&X-Amz-Expires=300&X-Amz-Signature=7ddd62e8d0293f4d0f15cb460e587b7b41da5f4749772e8042be32c7c6e228e4&X-Amz-SignedHeaders=host&actor_id=145347884&key_id=0&repo_id=750769480",
+    img: "https://github.com/amit0-01/Myportfolio/assets/145347884/5d4c6942-8be5-4dc1-a272-3d07b6d28f79",
     role: "Java delveloper Intern",
     company: "Allsoft solutions",
     date: "July 2022 - Aug 2022",

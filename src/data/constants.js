@@ -115,7 +115,7 @@ export const projects = [
     description:
       "Designed and developed an interactive web application that allows users to play and manage a collection of songs with user-friendly controls.The project can play and manage collection of songs. The features is it has progress bar, play/pause,previous and next controls.Built using HTML, CSS and Javascript.",
     image: 
-      "https://private-user-images.githubusercontent.com/145347884/301151934-b7066115-489e-48a3-a302-17387a35fb63.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY3MDMyMjMsIm5iZiI6MTcwNjcwMjkyMywicGF0aCI6Ii8xNDUzNDc4ODQvMzAxMTUxOTM0LWI3MDY2MTE1LTQ4OWUtNDhhMy1hMzAyLTE3Mzg3YTM1ZmI2My5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTMxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDEzMVQxMjA4NDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04ZTA5ZWJhZTVlMTY4NWI4ODBjZTEzYzVlZmZlOThhOWFhNzVmYzY3MDY4YjY0M2JiN2JhNzY2YjIzOGI0M2Y4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.B7xUgLLI5Q52QRUgu1v4QGx9rP2R4QI2-xmKzqkeHsU", 
+      "https://github.com/amit0-01/Myportfolio/assets/145347884/be5f8c6e-c661-4b3f-aeb9-801c6be1e49e", 
     tags: [
       "HTML",
       "CSS",
@@ -131,7 +131,7 @@ export const projects = [
     description:
       "An e-commerce website for electrical products.Utilized Java for backend development for user authentication, and database operations. Mysql database is used to store and manage product information, user data, and transaction records.Built using HTML,CSS ,Java and sql.",
     image:
-      "https://private-user-images.githubusercontent.com/145347884/301152166-d07f141c-b03e-4cc2-a967-2bc9c97bebd7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY3MDMyMjMsIm5iZiI6MTcwNjcwMjkyMywicGF0aCI6Ii8xNDUzNDc4ODQvMzAxMTUyMTY2LWQwN2YxNDFjLWIwM2UtNGNjMi1hOTY3LTJiYzljOTdiZWJkNy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTMxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDEzMVQxMjA4NDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jMmU4OWViM2MxNTZiOThhMDk2NTc5MmEwOTcyMDhhN2Q2YjBmY2VmZGQyNWE4OTBkODNkYTdlOGJjMDc3OTViJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.qmLT63D9335zFdZVHFNNEN93h__jNNzV-ZIpa9TiNJ8",
+      "https://github.com/amit0-01/Myportfolio/assets/145347884/a6b7935f-bac5-44ef-9290-a2247013b7a6",
     tags: [
       "JAVA",
       "HTML",
@@ -148,7 +148,7 @@ export const projects = [
     description:
       "Created tic tac toe game with beautiful ui design.Implemented game logic to dynamically check for winning patterns and display the winner.Incorporated reset and new game buttions for seamless game control. Built using html, css and javascript",
       image:
-      "https://private-user-images.githubusercontent.com/145347884/301152323-83a70968-1eb8-40db-b35d-e0b28ab4ca65.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY3MDMyMjMsIm5iZiI6MTcwNjcwMjkyMywicGF0aCI6Ii8xNDUzNDc4ODQvMzAxMTUyMzIzLTgzYTcwOTY4LTFlYjgtNDBkYi1iMzVkLWUwYjI4YWI0Y2E2NS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTMxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDEzMVQxMjA4NDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05NWZlNjc1Yzk3OTQwZjg4MjY0ZDA3ZjNmZGM1NWVhZDNkZjI2MGMzMWNjYzEzYjhkYWNmNjc1NTc2NzVmNmQ3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.bbG17UcG6khqvdtTx7LjvKu70_BFASvGuk79Adx4Rmo",
+      "https://github.com/amit0-01/Myportfolio/assets/145347884/544d9bd5-3b9d-4ec3-b633-06c29c9c7592",
     tags: ["JAVASCRIPT", "HTML", "CSS",],
     category: "web app",
     github: "",

@@ -90,7 +90,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+    img: "https://github.com/amit0-01/Myportfolio/assets/145347884/c04a3b2d-15b5-4f07-b7c6-3adf0bd8fb1f",
     school: "Senior Secondary Model School, Punjabi University, Patiala.",
     date: "2019 - 2020",
     grade: "92%",
@@ -99,7 +99,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+    img: "https://github.com/amit0-01/Myportfolio/assets/145347884/c04a3b2d-15b5-4f07-b7c6-3adf0bd8fb1f",
     school: "Senior Secondary Model School, Punjabi University, Patiala.",
     date: "2017 - 2018",
     grade: "86%",

@@ -142,7 +142,7 @@ export const projects = [
       "JAVASCRIPT"
     ],
     category: "web app",
-    github: "",
+    github: "https://github.com/amit0-01/Lighten-electricals",
     webapp: "",
   },
   {
@@ -153,7 +153,7 @@ export const projects = [
       image:"https://github.com/amit0-01/Myportfolio/assets/145347884/544d9bd5-3b9d-4ec3-b633-06c29c9c7592",
     tags: ["JAVASCRIPT", "HTML", "CSS",],
     category: "web app",
-    github: "",
+    github: "https://github.com/amit0-01/Tic-tac-toe",
     webapp: "",
   },
 ];

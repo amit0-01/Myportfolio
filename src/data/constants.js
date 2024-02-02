@@ -74,7 +74,7 @@ export const experiences = [
       "Learned core java concepts."
     ],
     doc: "https://drive.google.com/file/d/16MV0JwryNpcyJ2_qdRPgpqHFMsqSQJQp/view?usp=sharing",
-    img:"https://private-user-images.githubusercontent.com/145347884/301066989-7f5bcdfe-3f37-496b-a3e7-3c4780c9bbb0.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY2ODQ0OTQsIm5iZiI6MTcwNjY4NDE5NCwicGF0aCI6Ii8xNDUzNDc4ODQvMzAxMDY2OTg5LTdmNWJjZGZlLTNmMzctNDk2Yi1hM2U3LTNjNDc4MGM5YmJiMC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTMxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDEzMVQwNjU2MzRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02OWM2MDhjMDc3YTM0ZTI5NWE3ZjJiNjNhOGNhNWM3YzBmMDYwYmU0MjAwNzQ0NDA1ZDEyZjliZGNiNTNjZDBmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.mmCjtjxHKRUqOB9m8_4pHI9zjpNFyHdxQA0m7dd09BU",
+    img:"https://github.com/amit0-01/Myportfolio/assets/145347884/c488c2ab-d4d5-4e6e-b7c5-1f6ab042a3cb",
   },
 ];
 

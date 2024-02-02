@@ -65,7 +65,6 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://imgur.com/a/2VCzv4S",
     role: "Java delveloper Intern",
     company: "Allsoft solutions",
     date: "July 2022 - Aug 2022",

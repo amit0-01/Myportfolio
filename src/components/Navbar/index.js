@@ -28,7 +28,7 @@ const Navbar = () => {
           <NavLink href='#experience'>Experience</NavLink>
           <NavLink href='#projects'>Projects</NavLink>
           <NavLink href='#education'>Education</NavLink>
-          <NavLink href='https://mail.google.com/mail/u/0/#inbox?compose=new'>Hire me</NavLink>
+          <NavLink href="mailto:amit22414@gmail.com">Hire me</NavLink>
         </NavItems>
         <ButtonContainer>
           <GitHubButton href={Bio.linkedin} target="_blank">Linkedin Profile</GitHubButton>

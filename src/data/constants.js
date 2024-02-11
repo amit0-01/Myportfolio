@@ -53,6 +53,18 @@ export const skills = [
       },
 
       {
+        name: "Node Js",
+        image:
+        "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"     
+       },
+
+       {
+        name: "Express Js",
+        image:
+        "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"     
+       },
+
+      {
         name: "Bootstrap",
         image:
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",

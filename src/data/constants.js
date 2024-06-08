@@ -93,6 +93,16 @@ export const experiences = [
     doc: "https://drive.google.com/file/d/16MV0JwryNpcyJ2_qdRPgpqHFMsqSQJQp/view?usp=sharing",
     img:"https://github.com/amit0-01/Myportfolio/assets/145347884/c488c2ab-d4d5-4e6e-b7c5-1f6ab042a3cb",
   },
+  {
+    id: 1,
+    role: "Full Developer",
+    company: "Viithiisys Technologies",
+    date: "January 2024 - Current",
+    desc: "As a full stack developer, I specialize in both front-end and back-end development, creating seamless, user-friendly web applications. My expertise spans the entire development lifecycle, from designing responsive interfaces to managing databases and server-side logic.",
+    skills: [
+      "Javascript", "HTML", "CSS", "Angular", "Node Js", "Express Js", "MongoDB", "MySQL", "REST", "GraphQL", "Bootstrap" 
+    ],
+  },
 ];
 
 export const education = [

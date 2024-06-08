@@ -95,7 +95,7 @@ export const experiences = [
   },
   {
     id: 1,
-    role: "Full Developer",
+    role: "Full stack Developer",
     company: "Viithiisys Technologies",
     date: "January 2024 - Current",
     desc: "As a full stack developer, I specialize in both front-end and back-end development, creating seamless, user-friendly web applications. My expertise spans the entire development lifecycle, from designing responsive interfaces to managing databases and server-side logic.",

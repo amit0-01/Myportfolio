@@ -53,6 +53,12 @@ export const skills = [
       },
 
       {
+        name: "React Js",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/3/30/React_Logo_SVG.svg",
+      },
+
+      {
         name: "Node Js",
         image:
         "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"     
@@ -167,7 +173,7 @@ export const projects = [
     tags: [
       "HTML",
       "CSS",
-      "JAVASCRIPT"
+      "JAVASCRIPT"  
     ],
     category: "web app",
     github: "https://github.com/amit0-01/MySpotify",

@@ -106,7 +106,7 @@ export const experiences = [
     date: "January 2024 - Current",
     desc: "As a full stack developer, I specialize in both front-end and back-end development, creating seamless, user-friendly web applications. My expertise spans the entire development lifecycle, from designing responsive interfaces to managing databases and server-side logic.",
     skills: [
-      "Javascript", "HTML", "CSS", "Angular", "Node Js", "Express Js", "MongoDB", "MySQL", "REST", "GraphQL", "Bootstrap" 
+      "Javascript", "HTML", "CSS", "React Js", "Angular", "Node Js", "Express Js", "MongoDB", "MySQL", "REST", "GraphQL", "Bootstrap" 
     ],
   },
 ];
@@ -144,28 +144,48 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "MERN stack youtube app",
+    description: "Developed a YouTube-like platform using the MERN stack (MongoDB, Express.js, React, Node.js). The application features secure user authentication with JWT, a home page showcasing a list of videos, and a personal My Videos page where users can upload, view, and manage their own content. Leveraged React for a responsive and interactive frontend, while using Express.js and Node.js for robust backend API development and server-side logic. Integrated Multer for handling video file uploads, ensuring a seamless user experience.",
+    image: 'https://i.postimg.cc/m2GGxr3n/youtube-deploy.png',
+    tags: ["React Js", "Node Js", "Express Js", "MongoDB"],
+    category: "web app",
+    github: "https://github.com/amit0-01",
+    webapp: "https://youtube-amit.netlify.app/",
+  },
+  {
+    id: 1,
+    title: "Blogify",
+    description: "Developed a blog application using Node.js and Express, incorporating essential features for viewing and posting blogs. Implemented user authentication to support account creation and login functionality, ensuring secure access to the platform. Utilized Multer for efficient file uploads and EJS for rendering dynamic content on the frontend. Designed a home page to showcase posted blogs and created dedicated pages for user account management and blog submissions, providing a comprehensive and user-friendly blogging experience.",
+    image: 'https://i.postimg.cc/Y0gsS17W/blogify.png',
+    tags: ["Node Js", "Express Js", "EJS"],
+    category: "web app",
+    github: "https://github.com/amit0-01/BLOG-APP",
+    webapp: "https://blog-app-zvmh.onrender.com/",
+  },
+  {
+    id: 0,
     title: "Cryptozack Admin Panel",
     description:
       "Cryptozack is an Angular-based single-page application revolutionizing cryptocurrency management with its components: Home, Users, Withdrawal Request, and Wallet Tier, each serving specific functions. The Home component offers insights into total revenue, new subscribers, company wallet, total withdrawals, and includes a graph to represent company profit. The Withdrawal Request component facilitates prompt fund withdrawals, while the Wallet Tier component enables efficient wallet management. Built using HTML, CSS, and TypeScript, Cryptozack boasts a responsive design and intuitive features, ensuring a seamless user experience.",
-      image:"https://private-user-images.githubusercontent.com/145347884/352766271-00ebf938-057e-4ac7-8d6f-835aad19acf1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjIwOTkyMzEsIm5iZiI6MTcyMjA5ODkzMSwicGF0aCI6Ii8xNDUzNDc4ODQvMzUyNzY2MjcxLTAwZWJmOTM4LTA1N2UtNGFjNy04ZDZmLTgzNWFhZDE5YWNmMS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzI3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcyN1QxNjQ4NTFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mOGE1ZjkyMjBmNmFmNzM5YTA4NWEzODg1ZDBhNmMyOGY2MjgxYWU4ZDYxMGU3ZTM1ODk4MDk1N2Q4ZTEyOTU4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.Di-2BM-7sFn_nzS5g9-XFbsImCIblMtjWBs_O_DqImU",
-    tags: ["JAVASCRIPT", "Angular", "HTML", "CSS"],
+    image: 'https://i.postimg.cc/XvWZp301/crypto.png',
+    tags: ["Typescript", "Angular", "HTML", "CSS"],
     category: "web app",
     github: "https://github.com/amit0-01/Cryptozack-dashboard",
     webapp: "",
   },
   {
-    id: 123,
+    id: 1,
     title: "Youtube Backend",
     description:
       "I developed a YouTube backend incorporating key features such as playlists, likes, comments, subscriptions, tweets, user management, and video handling. Utilizing Mongoose for database modeling ensured efficient interaction with MongoDB. The backend allows users to create and manage playlists of their favorite videos, like videos, comment on videos to engage in discussions, and subscribe to channels for updates on new content. Additionally, it integrates a feature for users to tweet videos directly from the platform and includes robust user authentication and profile management. i have shown the demo of fronend how it will look",
     tags: ["JAVASCRIPT", "Node Js", "Express Js"],
-    image: "https://private-user-images.githubusercontent.com/145347884/352767546-3ebf5be1-7ba6-4a2b-961d-d4b86d878423.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjIxMDA2NTEsIm5iZiI6MTcyMjEwMDM1MSwicGF0aCI6Ii8xNDUzNDc4ODQvMzUyNzY3NTQ2LTNlYmY1YmUxLTdiYTYtNGEyYi05NjFkLWQ0Yjg2ZDg3ODQyMy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzI3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcyN1QxNzEyMzFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zYzcyNDI0ZDE1MTBhZjI5ZTViZThmNGM0ZDk2NjQ5YmFmOWI3YjU3MTAwMjUzNjczOTgxZjQ4YWMxMTFlNDhjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.0udMYmSbs13CaD-DdLDs9z6NZs0zE8lSkpMw4nW8-6o",
+    image: "https://i.postimg.cc/KcWdPD8B/youtube-backend.png",
     category: "web app",
     github: "https://github.com/amit0-01/mini-youtube-backend",
-    webapp: "",
+    webapp: "https://youtube-amit.netlify.app/",
   },
   {
-    id: 11,
+    id: 2,
     title: "Interactive music player application	",
     description:
       "Designed and developed an interactive web application that allows users to play and manage a collection of songs with user-friendly controls.The project can play and manage collection of songs. The features is it has progress bar, play/pause,previous and next controls.Built using HTML, CSS and Javascript.",
@@ -180,7 +200,7 @@ export const projects = [
     webapp: "https://myspotify-by-amit.netlify.app",
   },
   {
-    id: 9,
+    id: 3,
     title: "Lighten Electricals	",
     description:
       "An e-commerce website for electrical products.Utilized Java for backend development for user authentication, and database operations. Mysql database is used to store and manage product information, user data, and transaction records.Built using HTML,CSS ,Java and sql.",
@@ -196,7 +216,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 0,
+    id: 4,
     title: "tic tac toe game",
     description:
       "Created tic tac toe game with beautiful ui design.Implemented game logic to dynamically check for winning patterns and display the winner.Incorporated reset and new game buttions for seamless game control. Built using html, css and javascript",

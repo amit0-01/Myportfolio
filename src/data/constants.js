@@ -70,6 +70,15 @@ export const skills = [
         "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"     
        },
 
+       {
+        name: 'MySQL',
+        image: 'https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg'
+       },
+
+       {
+        name: 'MongoDB',
+        image: 'https://upload.wikimedia.org/wikipedia/en/5/5a/MongoDB_Fores-Green.svg'
+       },
 
       {
         name: "Git",

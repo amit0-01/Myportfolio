@@ -11,7 +11,7 @@ export const Bio = {
   resume:
     "https://drive.google.com/file/d/13ksLafUPxtknO6yaeijFfBJQG0emBL3r/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/amit-kumar-2b69a21b8/",
-  twitter: "https://twitter.com",
+  twitter: "https://x.com/_a_m_i_t_1",
   insta: "https://www.instagram.com",
   facebook: "https://www.facebook.com",
 };
@@ -70,17 +70,19 @@ export const skills = [
         "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"     
        },
 
-      {
-        name: "Bootstrap",
-        image:
-          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
-      },
 
       {
         name: "Git",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
       },
+
+      {
+        name: "Bootstrap",
+        image:
+          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
+      },
+
       {
         name: 'Tailwind CSS',
         image: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"

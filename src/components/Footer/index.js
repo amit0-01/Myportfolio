@@ -2,6 +2,8 @@ import styled from 'styled-components';
 import GithubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { Bio } from '../../data/constants';
+import TwitterIcon from '@mui/icons-material/Twitter';
+
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -94,9 +96,16 @@ function Footer() {
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
         </Nav>
-        <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.github} target="display"><GithubIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
+                <SocialMediaIcons>
+          <SocialMediaIcon href={Bio.github} target="display">
+            <GithubIcon />
+          </SocialMediaIcon>
+          <SocialMediaIcon href={Bio.linkedin} target="display">
+            <LinkedInIcon />
+          </SocialMediaIcon>
+          <SocialMediaIcon href={Bio.twitter} target="display">
+            <TwitterIcon />
+          </SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
           &copy; 2024 Amit  kumar. All rights reserved.

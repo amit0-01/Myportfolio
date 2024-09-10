@@ -56,13 +56,14 @@ export const NavItems = styled.ul`
       display: none;
     }
 `;
-
 export const NavLink = styled.a`
     color: ${({ theme }) => theme.text_primary};
     font-weight: 500;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
+    white-space: nowrap; /* Prevent text from wrapping */
+    
     :hover {
       color: ${({ theme }) => theme.primary};
     }
@@ -71,6 +72,7 @@ export const NavLink = styled.a`
       border-bottom: 2px solid ${({ theme }) => theme.primary};
     }
 `;
+
 
 
 export const GitHubButton = styled.a`

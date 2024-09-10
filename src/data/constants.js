@@ -9,7 +9,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/amit0-01",
   resume:
-    "https://drive.google.com/file/d/1CE07TAKhpVxP0zLjIzdwFVftxpCPq3NG/view?usp=sharing",
+    "https://drive.google.com/file/d/13ksLafUPxtknO6yaeijFfBJQG0emBL3r/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/amit-kumar-2b69a21b8/",
   twitter: "https://twitter.com",
   insta: "https://www.instagram.com",
@@ -81,6 +81,10 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
       },
+      {
+        name: 'Tailwind CSS',
+        image: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+      }
 
     ],
   },
@@ -160,7 +164,7 @@ export const projects = [
     tags: ["Node Js", "Express Js", "EJS"],
     category: "web app",
     github: "https://github.com/amit0-01/BLOG-APP",
-    webapp: "https://blog-app-zvmh.onrender.com/",
+    webapp: "https://blog-app-iilm.vercel.app/",
   },
   {
     id: 0,

@@ -168,6 +168,16 @@ export const projects = [
     webapp: "https://youtube-amit.netlify.app/",
   },
   {
+    id: 0,
+    title: "Next Js Blog App",
+    description: "Developed a YouTube-like platform using the MERN stack (MongoDB, Express.js, React, Node.js). The application features secure user authentication with JWT, a home page showcasing a list of videos, and a personal My Videos page where users can upload, view, and manage their own content. Leveraged React for a responsive and interactive frontend, while using Express.js and Node.js for robust backend API development and server-side logic. Integrated Multer for handling video file uploads, ensuring a seamless user experience.",
+    image: 'https://i.postimg.cc/WzFn4ywH/blog-mern.png',
+    tags: ["Next Js", "React Js", "Node Js", "Express JS", "MySQL"],
+    category: "web app",
+    github: "https://github.com/amit0-01/Next-Blog-App",
+    webapp: "https://next-blog-app-gamma-ruddy.vercel.app/",
+  },
+  {
     id: 1,
     title: "Blogify",
     description: "Developed a blog application using Node.js and Express, incorporating essential features for viewing and posting blogs. Implemented user authentication to support account creation and login functionality, ensuring secure access to the platform. Utilized Multer for efficient file uploads and EJS for rendering dynamic content on the frontend. Designed a home page to showcase posted blogs and created dedicated pages for user account management and blog submissions, providing a comprehensive and user-friendly blogging experience.",

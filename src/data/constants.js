@@ -170,7 +170,7 @@ export const projects = [
   {
     id: 0,
     title: "Next Js Blog App",
-    description: "Developed a Blog Platform using the MERN stack (MongoDB, Express.js, Next.js, Node.js). The application features secure user authentication with JWT, a home page displaying a list of blogs, and a personal My Blogs page where users can create, view, and manage their own posts. Leveraged Next.js for server-side rendering (SSR) and static site generation (SSG), resulting in improved SEO and faster page load times. The backend API was developed with Express.js and Node.js, ensuring robust server-side logic. Integrated Multer for handling image uploads for blog posts, enhancing the user experience with media-rich content.",
+    description: "Developed a Blog Platform using MySQLite, Express.js, Next.js, Node.js. The application features secure user authentication with JWT, a home page displaying a list of blogs, and a personal My Blogs page where users can create, view, and manage their own posts. Leveraged Next.js for server-side rendering (SSR) and static site generation (SSG), resulting in improved SEO and faster page load times. The backend API was developed with Express.js and Node.js, ensuring robust server-side logic. Integrated Multer for handling image uploads for blog posts, enhancing the user experience with media-rich content.",
     image: 'https://i.postimg.cc/WzFn4ywH/blog-mern.png',
     tags: ["Next Js", "React Js", "Node Js", "Express JS", "MySQL"],
     category: "web app",

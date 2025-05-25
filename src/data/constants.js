@@ -71,6 +71,17 @@ export const skills = [
        },
 
        {
+        name: "Nest Js",
+        image:
+        "https://upload.wikimedia.org/wikipedia/commons/3/37/NestJS-logo-wordmark.svg"     
+       },
+
+       {
+        name: 'PostgresSQL',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg'
+       },
+
+       {
         name: 'MySQL',
         image: 'https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg'
        },
@@ -84,6 +95,24 @@ export const skills = [
         name: "Git",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
+      },
+
+      {
+        name: "Docker",
+        image:
+          "https://upload.wikimedia.org/wikipedia/en/f/f4/Docker_logo.svg",
+      },
+
+      {
+        name: "Aws",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
+      },
+
+      {
+        name: "Bloackchain",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg",
       },
 
       {
@@ -102,8 +131,30 @@ export const skills = [
 ];
 
 export const experiences = [
+
   {
-    id: 0,
+    id: 1,
+    role: "Software Developer",
+    company: "Cybersify Cloud Computing Solutions Pvt Ltd",
+    date: "Decemeber 2024 - Current",
+    desc: "At Cybersify, I contribute as a full stack developer by building scalable web applications with intuitive front-end experiences and efficient back-end systems. I actively participate in architectural decisions, ensure responsive UI/UX, and handle robust data operations to deliver high-performance solutions.",
+    skills: [
+      "Javascript", "HTML", "CSS", "React Js", "Angular", "Node Js", "Nest Js",  "Express Js", "PostgresSQL", "MongoDB",  "MySQL", "REST", "GraphQL", "Bootstrap"
+    ],
+  },
+
+  {
+    id: 1,
+    role: "Software Developer",
+    company: "Viithiisys Technologies",
+    date: "January 2024 - November 2024",
+    desc: "During my time at Viithiisys Technologies, I worked on the complete software development life cycle, developing user-centric front-end components and maintaining secure and optimized back-end APIs. My role emphasized delivering clean code, integrating third-party services, and improving system performance across platforms.",
+    skills: [
+      "Javascript", "HTML", "CSS", "React Js", "Angular", "Node Js",  "Nest Js", "Express Js",  "PostgresSQL",  "MongoDB",  "MySQL", "REST", "GraphQL", "Bootstrap" 
+    ],
+  },
+  {
+    id: 3,
     role: "Java delveloper Intern",
     company: "Allsoft solutions",
     date: "July 2022 - Aug 2022",
@@ -113,17 +164,7 @@ export const experiences = [
     ],
     doc: "https://drive.google.com/file/d/16MV0JwryNpcyJ2_qdRPgpqHFMsqSQJQp/view?usp=sharing",
     img:"https://github.com/amit0-01/Myportfolio/assets/145347884/c488c2ab-d4d5-4e6e-b7c5-1f6ab042a3cb",
-  },
-  {
-    id: 1,
-    role: "Full stack Developer",
-    company: "Viithiisys Technologies",
-    date: "January 2024 - Current",
-    desc: "As a full stack developer, I specialize in both front-end and back-end development, creating seamless, user-friendly web applications. My expertise spans the entire development lifecycle, from designing responsive interfaces to managing databases and server-side logic.",
-    skills: [
-      "Javascript", "HTML", "CSS", "React Js", "Angular", "Node Js", "Express Js", "MongoDB", "MySQL", "REST", "GraphQL", "Bootstrap" 
-    ],
-  },
+  }
 ];
 
 export const education = [
@@ -157,6 +198,17 @@ export const education = [
 ];
 
 export const projects = [
+
+  {
+    id: 0,
+    title: "Freelance web3 platform",
+    description: "Developed a decentralized freelance marketplace featuring smart contract-based escrow and milestone payments. Engineered secure REST APIs using NestJS and Prisma to handle job postings, applications, and blockchain-triggered transactions. Integrated Ethereum smart contracts using Solidity and Ethers.js to facilitate secure, on-chain payment releases via MetaMask.",
+    image: 'https://res-console.cloudinary.com/dkvivdbiv/media_explorer_thumbnails/48d5dcbce3f8d7051fa18dbd84c59c70/detailed',
+    tags: ["NestJS · Next.js · Solidity · Ethers.js · Prisma · PostgreSQL"],
+    category: "web app",
+    github: "https://github.com/amit0-01/web3-freelance-backend",
+    webapp: "https://web3-freelance-frontened.vercel.app/",
+  },
   {
     id: 0,
     title: "MERN stack youtube app",

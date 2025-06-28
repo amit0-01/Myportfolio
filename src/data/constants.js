@@ -9,7 +9,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/amit0-01",
   resume:
-    "https://drive.google.com/file/d/13ksLafUPxtknO6yaeijFfBJQG0emBL3r/view?usp=sharing",
+    "https://drive.google.com/file/d/1IN5Wa3Pu_dHW6Yxljcf7RKdolZ095Cc1/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/amit-kumar-2b69a21b8/",
   twitter: "https://x.com/_a_m_i_t_1",
   insta: "https://www.instagram.com",
@@ -124,6 +124,10 @@ export const skills = [
       {
         name: 'Tailwind CSS',
         image: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+      },
+      {
+        name : "Redis",
+        image : "https://www.stackery.io/assets/images/posts/redis-cache-cluster-support/featured.svg"
       }
 
     ],
@@ -173,7 +177,7 @@ export const education = [
     img: "https://github.com/amit0-01/Myportfolio/assets/145347884/c04a3b2d-15b5-4f07-b7c6-3adf0bd8fb1f",
     school: "Punjabi University Patiala.",
     date: "2020 - 2024",
-    grade: "7.84 CGPA",
+    grade: "7.9 CGPA",
     desc: "I am currently pursuing a Bachelor's degree in Computer Sciend and Engineering at Punjabi University , Patiala. I have completed 7 semesters and have a CGPA of 7.84. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.I'm working on exciting projects .",
     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
   },
@@ -203,7 +207,7 @@ export const projects = [
     id: 0,
     title: "Freelance web3 platform",
     description: "Developed a decentralized freelance marketplace featuring smart contract-based escrow and milestone payments. Engineered secure REST APIs using NestJS and Prisma to handle job postings, applications, and blockchain-triggered transactions. Integrated Ethereum smart contracts using Solidity and Ethers.js to facilitate secure, on-chain payment releases via MetaMask.",
-    image: 'https://res-console.cloudinary.com/dkvivdbiv/media_explorer_thumbnails/48d5dcbce3f8d7051fa18dbd84c59c70/detailed',
+    image: 'https://res.cloudinary.com/dkvivdbiv/image/upload/v1748199770/bmborhmdgu6wimio8bsy.png',
     tags: ["NestJS · Next.js · Solidity · Ethers.js · Prisma · PostgreSQL"],
     category: "web app",
     github: "https://github.com/amit0-01/web3-freelance-backend",

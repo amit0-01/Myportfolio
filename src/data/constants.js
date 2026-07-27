@@ -2,14 +2,14 @@ export const Bio = {
   name: "Amit kumar",
   roles: [
     "Full Stack Developer",
-    "Software Developer",
+    "Software Engineer",
     "Programmer",
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/amit0-01",
   resume:
-    "https://drive.google.com/file/d/1IN5Wa3Pu_dHW6Yxljcf7RKdolZ095Cc1/view?usp=sharing",
+    "https://drive.google.com/file/d/17s-RHsbbj3Z5nOKAHvUGJ1hNozOFHg-F/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/amit-kumar-2b69a21b8/",
   twitter: "https://x.com/_a_m_i_t_1",
   insta: "https://www.instagram.com",
@@ -19,7 +19,10 @@ export const Bio = {
 export const skills = [
   {
     skills: [
-      
+      {
+        name: "C#",
+        image: "/csharp.png"
+       },
       {
         name: "C",
         image:
@@ -38,18 +41,18 @@ export const skills = [
       {
         name: "CSS",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+          "/css.png",
       },
       {
         name: "JavaScript",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+          "/javascript.jpg",
       },
 
       {
         name: "Angular",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg",
+          "/angular.png",
       },
 
       {
@@ -100,7 +103,7 @@ export const skills = [
       {
         name: "Docker",
         image:
-          "https://upload.wikimedia.org/wikipedia/en/f/f4/Docker_logo.svg",
+          "/docker.jpg",
       },
 
       {
@@ -110,7 +113,7 @@ export const skills = [
       },
 
       {
-        name: "Bloackchain",
+        name: "Blockchain",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg",
       },
@@ -135,12 +138,40 @@ export const skills = [
 ];
 
 export const experiences = [
+{
+  id: 0,
+  role: "Software Engineer",
+  company: "Pioneer E Solutions Pvt. Ltd.",
+  date: "March 2026 - Present",
+  desc: "Working as a Full Stack Developer on the Punjab Labour (PBLabour) platform, developing and maintaining scalable government web applications using Angular, ASP.NET Core, and SQL Server. Contributed to labour registration, licensing, inspection, and workflow modules by building responsive user interfaces, REST APIs, database procedures, and role-based approval systems. Developed and enhanced the Aadhaar Verification Pool Manager, implementing multithreaded batch processing, demographic and format validation, duplicate detection (Aadhaar, ESIC, and PF), and automated verification workflows capable of processing large datasets efficiently while improving system performance and reliability.",
+  skills: [
+    "Angular",
+    "React.js",
+    "JavaScript",
+    "TypeScript",
+    "HTML",
+    "CSS",
+    "ASP.NET Core",
+    "C#",
+    "Node.js",
+    "NestJS",
+    "Express.js",
+    "SQL Server",
+    "PostgreSQL",
+    "MySQL",
+    "MongoDB",
+    "REST API",
+    "GraphQL",
+    "Entity Framework Core",
+    "Bootstrap"
+  ],
+},
 
   {
     id: 1,
-    role: "Software Developer",
+    role: "Software Engineer",
     company: "Cybersify Cloud Computing Solutions Pvt Ltd",
-    date: "Decemeber 2024 - Current",
+    date: "Decemeber 2024 - March 2026",
     desc: "At Cybersify, I contribute as a full stack developer by building scalable web applications with intuitive front-end experiences and efficient back-end systems. I actively participate in architectural decisions, ensure responsive UI/UX, and handle robust data operations to deliver high-performance solutions.",
     skills: [
       "Javascript", "HTML", "CSS", "React Js", "Angular", "Node Js", "Nest Js",  "Express Js", "PostgresSQL", "MongoDB",  "MySQL", "REST", "GraphQL", "Bootstrap"
@@ -148,8 +179,8 @@ export const experiences = [
   },
 
   {
-    id: 1,
-    role: "Software Developer",
+    id: 2,
+    role: "Software Engineer",
     company: "Viithiisys Technologies",
     date: "January 2024 - November 2024",
     desc: "During my time at Viithiisys Technologies, I worked on the complete software development life cycle, developing user-centric front-end components and maintaining secure and optimized back-end APIs. My role emphasized delivering clean code, integrating third-party services, and improving system performance across platforms.",
@@ -167,7 +198,7 @@ export const experiences = [
       "Learned core java concepts."
     ],
     doc: "https://drive.google.com/file/d/16MV0JwryNpcyJ2_qdRPgpqHFMsqSQJQp/view?usp=sharing",
-    img:"https://github.com/amit0-01/Myportfolio/assets/145347884/c488c2ab-d4d5-4e6e-b7c5-1f6ab042a3cb",
+    img:"/java-certificate.png",
   }
 ];
 
@@ -202,7 +233,71 @@ export const education = [
 ];
 
 export const projects = [
+    {
+    id: 1,
+    title: "Punjab Labour (OSH) Management System",
+    description: "Contributed to the Punjab Labour (PBLabour) portal by developing and enhancing multiple Occupational Safety & Health (OSH) modules for labour registration, licensing, inspections, and compliance management. Built responsive Angular interfaces, developed secure ASP.NET Core REST APIs, and optimized SQL Server stored procedures to support complex government workflows. Implemented dynamic multi-step forms, document generation, role-based approval workflows, timeline tracking, scrutiny and clarification processes, and integrated Aadhaar, ESIC, and PF verification. Focused on improving application performance, database efficiency, and maintainability while ensuring compliance with government regulations.",
+    image: "/Osh.png",
+    tags: [
+      "Angular",
+      "ASP.NET Core",
+      "C#",
+      "SQL Server",
+      "Entity Framework Core",
+      "REST API",
+      "TypeScript",
+      "Bootstrap",
+      "Stored Procedures",
+      "JWT",
+      "Role-Based Access Control"
+    ],
+    category: "government web application",
+    // github: "",
+    // webapp: "",
+  },
 
+  {
+    id: 0,
+    title: "Real Estate Project Management Platform",
+    description: "Developed a comprehensive real estate project management platform to streamline construction project operations. Implemented modules for daily and weekly progress reporting, RFIs (Requests for Information), variations, material selections, document management, and role-based approval workflows. Designed and built secure, scalable REST APIs using NestJS and Prisma to manage project lifecycles, approvals, and documentation efficiently. Focused on optimizing data integrity, workflow automation, and collaboration across project stakeholders while ensuring high performance and maintainability.",
+    image: "/DCB.png",
+    tags: [
+      "Angular",
+      "Express",
+      "Prisma",
+      "MySQL",
+      "Firebase",
+      "REST API",
+      "TypeScript",
+      "JWT",
+      "Role-Based Access Control"
+    ],
+    category: "web app",
+    // github: "https://github.com/amit0-01/web3-freelance-backend",
+    // webapp: "https://web3-freelance-frontened.vercel.app/",
+  },
+  {
+  id: 2,
+  title: "Aadhaar Verification Pool Manager",
+  description: "Developed a high-performance Aadhaar Verification Pool Manager to automate large-scale identity verification workflows. Implemented multithreaded batch processing to efficiently process thousands of employee records, including Aadhaar demographic validation, format verification, and duplicate detection across Aadhaar, ESIC, and PF databases. Built secure REST APIs and optimized SQL Server stored procedures to improve verification speed, data consistency, and fault tolerance. Designed role-based monitoring, error handling, retry mechanisms, and comprehensive reporting to streamline verification operations and reduce manual intervention.",
+  image: "/aadhaarverification.png",
+  tags: [
+    "ASP.NET Core",
+    "C#",
+    "Angular",
+    "SQL Server",
+    "Entity Framework Core",
+    "REST API",
+    "Multithreading",
+    "Batch Processing",
+    "Stored Procedures",
+    "JWT",
+    "Role-Based Access Control"
+  ],
+  category: "enterprise application",
+  // github: "",
+  // webapp: "",
+},
   {
     id: 0,
     title: "Freelance web3 platform",

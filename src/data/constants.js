@@ -302,7 +302,7 @@ export const projects = [
     id: 0,
     title: "Freelance web3 platform",
     description: "Developed a decentralized freelance marketplace featuring smart contract-based escrow and milestone payments. Engineered secure REST APIs using NestJS and Prisma to handle job postings, applications, and blockchain-triggered transactions. Integrated Ethereum smart contracts using Solidity and Ethers.js to facilitate secure, on-chain payment releases via MetaMask.",
-    image: 'https://res.cloudinary.com/dkvivdbiv/image/upload/v1748199770/bmborhmdgu6wimio8bsy.png',
+    image: '/web3-freelance.png',
     tags: ["NestJS · Next.js · Solidity · Ethers.js · Prisma · PostgreSQL"],
     category: "web app",
     github: "https://github.com/amit0-01/web3-freelance-backend",

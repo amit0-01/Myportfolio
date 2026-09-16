@@ -20,15 +20,19 @@ export const skills = [
   {
     skills: [
       {
-        name: "C#",
-        image: "/csharp.png"
+        name: "Python",
+        image: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
        },
+                    {
+        name: "JavaScript",
+        image:
+          "/javascript.jpg",
+      },
       {
         name: "C",
         image:
         "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg"     
        },
-
        {
         name: "C++",
         image:
@@ -43,22 +47,22 @@ export const skills = [
         image:
           "/css.png",
       },
+
       {
-        name: "JavaScript",
+        name: "React Js",
         image:
-          "/javascript.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/3/30/React_Logo_SVG.svg",
+      },
+        {
+        name: "Next Js",
+        image:
+          "https://icon.icepanel.io/Technology/png-shadow-512/Next.js.png",
       },
 
       {
         name: "Angular",
         image:
           "/angular.png",
-      },
-
-      {
-        name: "React Js",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/3/30/React_Logo_SVG.svg",
       },
 
       {
@@ -143,16 +147,13 @@ export const experiences = [
   role: "Software Engineer",
   company: "Pioneer E Solutions Pvt. Ltd.",
   date: "March 2026 - Present",
-  desc: "Working as a Full Stack Developer on the Punjab Labour (PBLabour) platform, developing and maintaining scalable government web applications using Angular, ASP.NET Core, and SQL Server. Contributed to labour registration, licensing, inspection, and workflow modules by building responsive user interfaces, REST APIs, database procedures, and role-based approval systems. Developed and enhanced the Aadhaar Verification Pool Manager, implementing multithreaded batch processing, demographic and format validation, duplicate detection (Aadhaar, ESIC, and PF), and automated verification workflows capable of processing large datasets efficiently while improving system performance and reliability.",
+  desc: "Working as a Full Stack Developer, developing and maintaining scalable web applications using Next js, Node js , and SQL Server. Contributed to labour registration, licensing, inspection, and workflow modules by building responsive user interfaces, REST APIs, database procedures, and role-based approval systems. Developed and enhanced the Aadhaar Verification Pool Manager, implementing multithreaded batch processing, demographic and format validation, duplicate detection (Aadhaar, ESIC, and PF), and automated verification workflows capable of processing large datasets efficiently while improving system performance and reliability.",
   skills: [
-    "Angular",
     "React.js",
     "JavaScript",
     "TypeScript",
     "HTML",
     "CSS",
-    "ASP.NET Core",
-    "C#",
     "Node.js",
     "NestJS",
     "Express.js",
@@ -239,11 +240,9 @@ export const projects = [
     description: "Contributed to the Punjab Labour (PBLabour) portal by developing and enhancing multiple Occupational Safety & Health (OSH) modules for labour registration, licensing, inspections, and compliance management. Built responsive Angular interfaces, developed secure ASP.NET Core REST APIs, and optimized SQL Server stored procedures to support complex government workflows. Implemented dynamic multi-step forms, document generation, role-based approval workflows, timeline tracking, scrutiny and clarification processes, and integrated Aadhaar, ESIC, and PF verification. Focused on improving application performance, database efficiency, and maintainability while ensuring compliance with government regulations.",
     image: "/Osh.png",
     tags: [
-      "Angular",
-      "ASP.NET Core",
-      "C#",
+      "Next js",
+      "Node js",
       "SQL Server",
-      "Entity Framework Core",
       "REST API",
       "TypeScript",
       "Bootstrap",
@@ -262,7 +261,7 @@ export const projects = [
     description: "Developed a comprehensive real estate project management platform to streamline construction project operations. Implemented modules for daily and weekly progress reporting, RFIs (Requests for Information), variations, material selections, document management, and role-based approval workflows. Designed and built secure, scalable REST APIs using NestJS and Prisma to manage project lifecycles, approvals, and documentation efficiently. Focused on optimizing data integrity, workflow automation, and collaboration across project stakeholders while ensuring high performance and maintainability.",
     image: "/DCB.png",
     tags: [
-      "Angular",
+      "React js",
       "Express",
       "Prisma",
       "MySQL",
@@ -276,28 +275,7 @@ export const projects = [
     // github: "https://github.com/amit0-01/web3-freelance-backend",
     // webapp: "https://web3-freelance-frontened.vercel.app/",
   },
-  {
-  id: 2,
-  title: "Aadhaar Verification Pool Manager",
-  description: "Developed a high-performance Aadhaar Verification Pool Manager to automate large-scale identity verification workflows. Implemented multithreaded batch processing to efficiently process thousands of employee records, including Aadhaar demographic validation, format verification, and duplicate detection across Aadhaar, ESIC, and PF databases. Built secure REST APIs and optimized SQL Server stored procedures to improve verification speed, data consistency, and fault tolerance. Designed role-based monitoring, error handling, retry mechanisms, and comprehensive reporting to streamline verification operations and reduce manual intervention.",
-  image: "/aadhaarverification.png",
-  tags: [
-    "ASP.NET Core",
-    "C#",
-    "Angular",
-    "SQL Server",
-    "Entity Framework Core",
-    "REST API",
-    "Multithreading",
-    "Batch Processing",
-    "Stored Procedures",
-    "JWT",
-    "Role-Based Access Control"
-  ],
-  category: "enterprise application",
-  // github: "",
-  // webapp: "",
-},
+
   {
     id: 0,
     title: "Freelance web3 platform",

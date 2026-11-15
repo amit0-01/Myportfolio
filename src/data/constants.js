@@ -49,11 +49,27 @@ export const skills = [
           "/javascript.jpg",
       },
 
-      {
-        name: "Angular",
-        image:
-          "/angular.png",
-      },
+  // Databases
+  // {
+  //   name: "SQL Server",
+  //   image: "/sql-server.png"
+  // },
+  {
+    name: "MongoDB",
+    image: "https://upload.wikimedia.org/wikipedia/en/5/5a/MongoDB_Fores-Green.svg"
+  },
+  {
+    name: "PostgreSQL",
+    image: "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg"
+  },
+  {
+    name: "MySQL",
+    image: "https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg"
+  },
+  {
+    name: "Redis",
+    image: "https://www.stackery.io/assets/images/posts/redis-cache-cluster-support/featured.svg"
+  },
 
       {
         name: "React Js",
@@ -67,71 +83,25 @@ export const skills = [
         "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"     
        },
 
-       {
-        name: "Express Js",
-        image:
-        "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"     
-       },
+  // Cloud & DevOps
+  {
+    name: "AWS",
+    image: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg"
+  },
+  {
+    name: "Docker",
+    image: "/docker.jpg"
+  },
+  {
+    name: "Git",
+    image: "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+  },
 
-       {
-        name: "Nest Js",
-        image:
-        "https://upload.wikimedia.org/wikipedia/commons/3/37/NestJS-logo-wordmark.svg"     
-       },
-
-       {
-        name: 'PostgresSQL',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg'
-       },
-
-       {
-        name: 'MySQL',
-        image: 'https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg'
-       },
-
-       {
-        name: 'MongoDB',
-        image: 'https://upload.wikimedia.org/wikipedia/en/5/5a/MongoDB_Fores-Green.svg'
-       },
-
-      {
-        name: "Git",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
-      },
-
-      {
-        name: "Docker",
-        image:
-          "/docker.jpg",
-      },
-
-      {
-        name: "Aws",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
-      },
-
-      {
-        name: "Blockchain",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg",
-      },
-
-      {
-        name: "Bootstrap",
-        image:
-          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
-      },
-
-      {
-        name: 'Tailwind CSS',
-        image: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
-      },
-      {
-        name : "Redis",
-        image : "https://www.stackery.io/assets/images/posts/redis-cache-cluster-support/featured.svg"
-      }
+  // Other Technologies
+  {
+    name: "Blockchain",
+    image: "https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg"
+  }
 
     ],
   },
@@ -156,10 +126,6 @@ export const experiences = [
     "Node.js",
     "NestJS",
     "Express.js",
-    "SQL Server",
-    "PostgreSQL",
-    "MySQL",
-    "MongoDB",
     "REST API",
     "GraphQL",
     "Entity Framework Core",
@@ -312,7 +278,7 @@ export const projects = [
     id: 0,
     title: "MERN stack youtube app",
     description: "Developed a YouTube-like platform using the MERN stack (MongoDB, Express.js, React, Node.js). The application features secure user authentication with JWT, a home page showcasing a list of videos, and a personal My Videos page where users can upload, view, and manage their own content. Leveraged React for a responsive and interactive frontend, while using Express.js and Node.js for robust backend API development and server-side logic. Integrated Multer for handling video file uploads, ensuring a seamless user experience.",
-    image: 'https://i.postimg.cc/m2GGxr3n/youtube-deploy.png',
+    image: '/youtube.png',
     tags: ["React Js", "Node Js", "Express Js", "MongoDB"],
     category: "web app",
     github: "https://github.com/amit0-01",

@@ -19,45 +19,60 @@ export const Bio = {
 export const skills = [
   {
     skills: [
-      {
-        name: "Python",
-        image: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
-       },
-                    {
-        name: "JavaScript",
-        image:
-          "/javascript.jpg",
-      },
-      {
-        name: "C",
-        image:
-        "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg"     
-       },
        {
-        name: "C++",
-        image:
-        "https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png"       },
-     
-      {
-        name: "HTML",
-        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
-      },
-      {
-        name: "CSS",
-        image:
-          "/css.png",
-      },
+    name: "C#",
+    image: "https://upload.wikimedia.org/wikipedia/commons/d/d2/C_Sharp_Logo_2023.svg"
+  },
+  {
+    name: ".NET",
+    image: "https://upload.wikimedia.org/wikipedia/commons/7/7d/Microsoft_.NET_logo.svg"
+  },
+  {
+    name: "Node.js",
+    image: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
+  },
+  {
+    name: "Express.js",
+    image: "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"
+  },
+  {
+    name: "NestJS",
+    image: "https://upload.wikimedia.org/wikipedia/commons/3/37/NestJS-logo-wordmark.svg"
+  },
 
-      {
-        name: "React Js",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/3/30/React_Logo_SVG.svg",
-      },
-        {
-        name: "Next Js",
-        image:
-          "https://icon.icepanel.io/Technology/png-shadow-512/Next.js.png",
-      },
+  // Frontend Development
+  {
+    name: "Angular",
+    image: "/angular.png"
+  },
+  {
+    name: "React.js",
+    image: "https://upload.wikimedia.org/wikipedia/commons/3/30/React_Logo_SVG.svg"
+  },
+  {
+    name: "Next.js",
+    image: "https://icon.icepanel.io/Technology/png-shadow-512/Next.js.png"
+  },
+  {
+    name: "JavaScript",
+    image: "/javascript.jpg"
+  },
+  {
+    name: "HTML",
+    image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
+  },
+  {
+    name: "CSS",
+    image: "/css.png"
+  },
+  {
+    name: "Tailwind CSS",
+    image: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+  },
+  {
+    name: "Bootstrap",
+    image: "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png"
+  },
 
   // Databases
   // {
@@ -81,11 +96,19 @@ export const skills = [
     image: "https://www.stackery.io/assets/images/posts/redis-cache-cluster-support/featured.svg"
   },
 
-      {
-        name: "Node Js",
-        image:
-        "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"     
-       },
+  // Programming Languages
+  {
+    name: "Python",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
+  },
+  {
+    name: "C++",
+    image: "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg"
+  },
+  {
+    name: "C",
+    image: "https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png"
+  },
 
   // Cloud & DevOps
   {
@@ -106,7 +129,6 @@ export const skills = [
     name: "Blockchain",
     image: "https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg"
   }
-
     ],
   },
 ];
@@ -117,8 +139,11 @@ export const experiences = [
   role: "Software Engineer",
   company: "Pioneer E Solutions Pvt. Ltd.",
   date: "March 2026 - Present",
-  desc: "Working as a Full Stack Developer, developing and maintaining scalable web applications using Next js, Node js , and SQL Server. Contributed to labour registration, licensing, inspection, and workflow modules by building responsive user interfaces, REST APIs, database procedures, and role-based approval systems. Developed and enhanced the Aadhaar Verification Pool Manager, implementing multithreaded batch processing, demographic and format validation, duplicate detection (Aadhaar, ESIC, and PF), and automated verification workflows capable of processing large datasets efficiently while improving system performance and reliability.",
+  desc: "Contributed to the Punjab Labour Department portal by developing and maintaining regulatory workflow modules using Angular, ASP.NET Core, and SQL Server. Built and enhanced REST APIs, database procedures, validations, and role-based approval workflows. Developed a desktop application using C#/.NET to automate bulk verification and processing of large volumes of employee compliance records. Designed optimized SQL Server stored procedures for automated batch retrieval, status tracking, retry logic, and handling of Labor Welfare Fund (LWF) and Unpaid Wages data.",
   skills: [
+    "C#",
+    ".NET",
+    "MySQL",
     "React.js",
     "JavaScript",
     "TypeScript",
